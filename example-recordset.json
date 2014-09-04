@@ -1,0 +1,17 @@
+{
+  "Comment": "Creating example.domain.com from aws cli",
+  "Changes": [
+    {
+      "Action": "CREATE",
+      "ResourceRecordSet": {
+        "Name": "example.domain.com",
+        "Type": "CNAME",
+        "AliasTarget": {
+                "HostedZoneId": "ABCDEFGHIDDDF", 
+                "EvaluateTargetHealth": false, 
+                "DNSName": "example1.domain.com."
+         } 
+      }
+    }
+  ]
+}
